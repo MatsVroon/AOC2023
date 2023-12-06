@@ -1,9 +1,10 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AOC2023;
+using System.Diagnostics;
 
 //var ab = 'a';
 var ab = 'b';
-var day = 5;
+var day = 6;
 var lines = Parser.ParseInput(day, ab);
 var dayObject = DayFactory.CreateDayObject(day);
 var result = dayObject.Run(ab, lines);

@@ -5,7 +5,6 @@
         public static void Print(object obj)
         {
             Console.WriteLine(obj.ToString());
-            PrintToFile(obj);
         }
 
         public static void PrintToFile(object obj)
