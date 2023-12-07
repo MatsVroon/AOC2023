@@ -3,8 +3,8 @@ using AOC2023;
 using System.Diagnostics;
 
 //var ab = 'a';
-var ab = 'b';
-var day = 6;
+var ab = 'a';
+var day = 7;
 var lines = Parser.ParseInput(day, ab);
 var dayObject = DayFactory.CreateDayObject(day);
 var result = dayObject.Run(ab, lines);
