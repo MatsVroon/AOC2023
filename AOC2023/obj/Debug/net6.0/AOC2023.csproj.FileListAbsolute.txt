@@ -26,3 +26,5 @@ C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay5b.txt
 C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay6a.txt
 C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay6b.txt
 C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay7a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay8a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay9a.txt
