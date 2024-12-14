@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "aTyKFkopZIayUYP3WqaheIL8KEIgcWSV2on0EXHATJrzqvEPZrTxQ5uS9CXp128qy3jStTmt0QiTPpXsEccoIg==",
+  "dgSpecHash": "ogkhRNQ6hNz5TH2whATHHVl9tN4Y9yIbZ0FFvxSId+mroGYYFDPY/B7ckdepAfvfV/TPfBHiC/m3jxYwyhnfnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\matsv\\Desktop\\AOC2023\\AOC2023\\AOC2023.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\matsv\\.nuget\\packages\\lpsolvedotnet\\4.0.0\\lpsolvedotnet.4.0.0.nupkg.sha512",
+    "C:\\Users\\matsv\\.nuget\\packages\\lpsolvedotnet.native.win-x64\\4.0.0\\lpsolvedotnet.native.win-x64.4.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

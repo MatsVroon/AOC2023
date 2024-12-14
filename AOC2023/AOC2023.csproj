@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -14,10 +14,29 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Input2024\inputDay10a.txt" />
+    <None Remove="Input2024\inputDay11a.txt" />
+    <None Remove="Input2024\inputDay12a - Copy.txt" />
+    <None Remove="Input2024\inputDay12a.txt" />
+    <None Remove="Input2024\inputDay13a.txt" />
+    <None Remove="Input2024\inputDay14a.txt" />
+    <None Remove="Input2024\inputDay1a.txt" />
+    <None Remove="Input2024\inputDay3a.txt" />
+    <None Remove="Input2024\inputDay4a.txt" />
+    <None Remove="Input2024\inputDay4b.txt" />
+    <None Remove="Input2024\inputDay5a.txt" />
+    <None Remove="Input2024\inputDay6a.txt" />
+    <None Remove="Input2024\inputDay7a.txt" />
+    <None Remove="Input2024\inputDay8a.txt" />
+    <None Remove="Input2024\inputDay9a.txt" />
     <None Remove="Input\inputDay10a.txt" />
     <None Remove="Input\inputDay11a.txt" />
     <None Remove="Input\inputDay12a.txt" />
     <None Remove="Input\inputDay13a.txt" />
+    <None Remove="Input\inputDay14a.txt" />
+    <None Remove="Input\inputDay14b.txt" />
+    <None Remove="Input\inputDay15a.txt" />
+    <None Remove="Input\inputDay15b.txt" />
     <None Remove="Input\inputDay1b.txt" />
     <None Remove="Input\inputDay2a.txt" />
     <None Remove="Input\inputDay2b.txt" />
@@ -35,6 +54,61 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Output\" />
+    <Content Include="Input2024\inputDay14a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay13a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay12a - Copy.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay12a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay11a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay1a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay10a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay4b.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay9a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay8a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay7a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay6a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay5a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay4a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay3a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Input2024\inputDay2a.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Output2024\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LpSolveDotNet.Native.win-x64" Version="4.0.0" />
   </ItemGroup>
 </Project>

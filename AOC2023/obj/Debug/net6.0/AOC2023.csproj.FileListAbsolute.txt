@@ -32,3 +32,26 @@ C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay10a.txt
 C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay11a.txt
 C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay12a.txt
 C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay13a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay14a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay14b.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay15a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input\inputDay15b.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay1a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay2a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay3a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay5a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay4a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay6a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay7a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay8a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay9a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay10a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay4b.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay11a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay12a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay12a - Copy.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\NativeBinaries\win-x64\lpsolve55.dll
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\LpSolveDotNet.dll
+C:\Users\matsv\Desktop\AOC2023\AOC2023\obj\Debug\net6.0\AOC2023.csproj.CopyComplete
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay13a.txt
+C:\Users\matsv\Desktop\AOC2023\AOC2023\bin\Debug\net6.0\Input2024\inputDay14a.txt

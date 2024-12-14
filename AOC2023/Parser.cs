@@ -4,7 +4,7 @@
     {
         public static string[] ParseInput(int day, char ab = 'a')
         {
-            return File.ReadAllLines($"{Directory.GetCurrentDirectory()}/Input/inputDay{day}{ab}.txt");
+            return File.ReadAllLines($"{Directory.GetCurrentDirectory()}/Input2024/inputDay{day}{ab}.txt");
         }
         public static string[] ParseInput(char ab = 'a')
         {

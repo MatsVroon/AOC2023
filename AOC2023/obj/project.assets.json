@@ -1,11 +1,71 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "LpSolveDotNet/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/LpSolveDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/LpSolveDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "LpSolveDotNet.Native.win-x64/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "LpSolveDotNet": "4.0.0"
+        },
+        "build": {
+          "build/LpSolveDotNet.Native.win-x64.targets": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LpSolveDotNet/4.0.0": {
+      "sha512": "R8ZtQW5rMiiDC6fwJ5iKE2rBfysDmsT28EUX4qz8Hdqc2bPNZfsiUOuOSWoPqo5WFm5jzOzXfy5/WkehJdlRIA==",
+      "type": "package",
+      "path": "lpsolvedotnet/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/LpSolveDotNet.dll",
+        "lib/net20/LpSolveDotNet.xml",
+        "lib/net471/LpSolveDotNet.dll",
+        "lib/net471/LpSolveDotNet.xml",
+        "lib/netcoreapp3.0/LpSolveDotNet.dll",
+        "lib/netcoreapp3.0/LpSolveDotNet.xml",
+        "lib/netstandard1.5/LpSolveDotNet.dll",
+        "lib/netstandard1.5/LpSolveDotNet.xml",
+        "lib/netstandard2.0/LpSolveDotNet.dll",
+        "lib/netstandard2.0/LpSolveDotNet.xml",
+        "lpsolvedotnet.4.0.0.nupkg.sha512",
+        "lpsolvedotnet.nuspec"
+      ]
+    },
+    "LpSolveDotNet.Native.win-x64/4.0.0": {
+      "sha512": "3+p8/turSvKl03iRIdxIXLqbRrpQI2+/uL3cAb3V1aW9AFh0s6/lRAR9agGOIbNG8YnNxGgS97p8GI0Z2GbFYg==",
+      "type": "package",
+      "path": "lpsolvedotnet.native.win-x64/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LpSolveDotNet.Native.win-x64.targets",
+        "build/NativeBinaries/win-x64/lpsolve55.dll",
+        "lpsolvedotnet.native.win-x64.4.0.0.nupkg.sha512",
+        "lpsolvedotnet.native.win-x64.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "LpSolveDotNet.Native.win-x64 >= 4.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\matsv\\.nuget\\packages\\": {},
@@ -50,6 +110,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "LpSolveDotNet.Native.win-x64": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -6,7 +6,7 @@ namespace AOC2023
     {
         public static Day CreateDayObject(int day) 
         {
-            var dayType = Type.GetType($"AOC2023.Days.Day{day}");
+            var dayType = Type.GetType($"AOC2023.Days2024.Day{day}");
             if (dayType == null) throw new Exception($"Day{day} type doesn't exist");
 
             var dayXObject = Activator.CreateInstance(dayType);
